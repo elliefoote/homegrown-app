@@ -55,7 +55,7 @@ app.use(
   })
 );
 
-const YOUR_DOMAIN = 'http://localhost:3000/cart';
+const YOUR_DOMAIN = 'http://ejf-homegrown.herokuapp.com/cart';
 
 app.post('/create-checkout-session', async (req, res) => {
   try {
