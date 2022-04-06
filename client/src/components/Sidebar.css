@@ -1,0 +1,28 @@
+.sidebar {
+    min-width: 100vw;
+    height: 56px;
+    background-color: #c1d3c8;
+    color: black;
+    font-family: 'DM Sans', 'sans-serif';
+}
+
+.sb-link {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb-link:hover {
+    border-bottom-width: 1px;
+    padding-bottom: 3px;
+}
+
+.sb-active {
+    /* border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 3px; */
+    font-style: italic;
+}
